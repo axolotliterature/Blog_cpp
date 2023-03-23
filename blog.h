@@ -20,10 +20,16 @@ extern struct Blog* postStart;
 extern char* Author;
 
 //==================================== FUNCTION PROTOTYPES
-
-//==================================== MY FUNCTIONS (change this title please ffs)
-
-void menu();
 void getName();
+void menu();
+void addPost();
+void entryCount();
+void printDate();
+int getDate();
+void printTitle();
+void printType();
+char* getPrintType();
+void printAll();
+
 
 #endif
